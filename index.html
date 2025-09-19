@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Bag Shop</title>
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>Bag Shop</h1>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Menu -->
+  <div class="menu" id="menu">
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#offers">Offers</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Sections -->
+  <section id="home">
+    <h2>Welcome to Bag Shop</h2>
+    <p>Your one-stop shop for stylish bags</p>
+    <img src="bag1.jpg" alt="Bag">
+  </section>
+
+  <section id="collection">
+    <h2>Our Collection</h2>
+    <img src="bag2.jpg" alt="Bag">
+  </section>
+
+  <section id="offers">
+    <h2>Special Offers</h2>
+    <img src="bag3.webp" alt="Bag">
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide the best quality bags at affordable prices.</p>
+    <img src="bag4.jpg" alt="Bag">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@bagshop.com</p>
+    <img src="bag5.jpg" alt="Bag">
+  </section>
+
+  <!-- Script -->
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
